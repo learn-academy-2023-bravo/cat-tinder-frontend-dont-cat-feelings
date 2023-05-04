@@ -10,7 +10,6 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import "./App.css"
 import mockCats from "./mockCats"
-// import { Route } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {

@@ -9,7 +9,7 @@ describe ("<Home />", () => {
         <BrowserRouter>
         <Home/>
         </BrowserRouter>)
-        // screen.debug()
+        screen.debug()
         const element = screen.getByRole('heading', {
             name: /welcome to cattinder, where the cats come to find their nip! click to enter/i
           })
@@ -24,7 +24,7 @@ describe ("<Home />", () => {
         <BrowserRouter>
         <Home/>
         </BrowserRouter>)
-        // screen.debug()
+        screen.debug()
         const indexLink = screen.getByText(/click to ENTER/i)
         expect(indexLink).toBeInTheDocument()
         })

@@ -3,7 +3,7 @@ const Header = () => {
     return(
         
 
-<div class="Header">  <h1>this is the header</h1>  </div>
+<div className="Header"><h1>Don't Cat Feelings!</h1></div>
     )
 }
 export default Header

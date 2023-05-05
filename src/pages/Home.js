@@ -1,7 +1,8 @@
 const Home = () => {
     return(
         <>
-        <h3>Home</h3></>
+        <h3>Welcome to CatTinder, where the cats come to find their NIP! Click to ENTER</h3>
+       </>
     )
 }
 

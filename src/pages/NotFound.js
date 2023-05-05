@@ -1,7 +1,7 @@
 const NotFound = () => {
     return(
         <>
-        <h3>No Cats found here.</h3></>
+        <h3>OOPS! No cats here.</h3></>
     )
 }
 

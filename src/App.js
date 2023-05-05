@@ -1,5 +1,5 @@
-import React, { useState } from "react"
-import {Routes,Route} from'react-router-dom'
+import React, { useState } from 'react'
+import { Routes, Route } from'react-router-dom'
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import CatEdit from "./pages/CatEdit"
@@ -10,7 +10,6 @@ import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
 import "./App.css"
 import mockCats from "./mockCats"
-// import {Route} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {

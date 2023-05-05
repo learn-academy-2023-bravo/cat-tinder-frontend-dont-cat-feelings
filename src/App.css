@@ -13,3 +13,7 @@
   font-size: 30px;
   margin-top: auto;
 }
+.subtitle {
+  color:mediumblue;
+  text-decoration: underline;
+}

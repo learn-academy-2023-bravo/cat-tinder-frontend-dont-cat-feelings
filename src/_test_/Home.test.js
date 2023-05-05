@@ -25,7 +25,7 @@ describe ("<Home />", () => {
         <Home/>
         </BrowserRouter>)
         screen.debug()
-        const indexLink = screen.getByText(/click to ENTER/i)
+        const indexLink = screen.getByText(/Click to ENTER/i)
         expect(indexLink).toBeInTheDocument()
         })
         userEvent.click(screen.getByText(/Click to ENTER/i)).toBeInTheDocument()

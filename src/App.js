@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Routes, Route } from'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import Footer from "./components/Footer"
 import Header from "./components/Header"
 import CatEdit from "./pages/CatEdit"
@@ -8,9 +9,9 @@ import CatNew from "./pages/CatNew"
 import CatShow from "./pages/CatShow"
 import Home from "./pages/Home"
 import NotFound from "./pages/NotFound"
-import "./App.css"
 import mockCats from "./mockCats"
 import 'bootstrap/dist/css/bootstrap.min.css'
+import "./App.css"
 
 const App = () => {
   const [cats, setCats] = useState(mockCats)
@@ -22,10 +23,10 @@ const App = () => {
 
       <Routes>
         <Route path ="/" element={<Home/>} />
-        <Route path="/CatIndex" element={<CatIndex/>}/>
-        <Route path="/CatShow" element={<CatShow/>}/>
-        <Route path="/CatNew" element={<CatNew/>}/>
-        <Route path="/CatEdit" element={<CatEdit/>}/>
+        <Route path="/catindex" element={<CatIndex cats = { cats }/>}/>
+        <Route path="/catshow/:id" element={<CatShow cats = { cats }/>}/>
+        <Route path="/catnew" element={<CatNew/>}/>
+        <Route path="/catedit" element={<CatEdit/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
     

@@ -33,9 +33,5 @@ describe("<CatNew />", () =>{
         screen.logTestingPlaygroundURL()
         
     })
-    //     it('a form with entries for name , age, enjoyments, image, ideal date',()=>{
-    //         const formName = screen.getByRol("label",{name:/name/id})
-    //         expect(formName.getAttribute("For")).toEqual("name")
 
-    //     })
 })
